@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Triple.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Triple.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/keyvalue/Triple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="-111">
+              <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -32,11 +32,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexImages.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IndexImages.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/lp1/IndexImages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="534">
+              <caret line="146" column="9" lean-forward="true" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryImages.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/lp1/QueryImages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="42" column="117" lean-forward="false" selection-start-line="42" selection-start-column="117" selection-end-line="42" selection-end-column="117" />
               <folding />
             </state>
           </provider>
@@ -80,14 +90,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/lp1/QueryImages.java" />
         <option value="$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/keyvalue/IKeyValueStorage.java" />
         <option value="$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/keyvalue/MemStorage.java" />
         <option value="$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/keyvalue/BdbStorage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/lp1/IndexImages.java" />
         <option value="$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/lp1/Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/keyvalue/Triple.java" />
         <option value="$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/keyvalue/DynamoDBStorage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/lp1/IndexImages.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/lp1/QueryImages.java" />
       </list>
     </option>
   </component>
@@ -124,6 +134,41 @@
             <path>
               <item name="CC_LP1MS1" type="b2602c69:ProjectViewProjectNode" />
               <item name="practica1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CC_LP1MS1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practica1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CC_LP1MS1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practica1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CC_LP1MS1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practica1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CC_LP1MS1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practica1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CC_LP1MS1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practica1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="lp1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,12 +342,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537555635949</updated>
       <workItem from="1537555637547" duration="18952000" />
-      <workItem from="1537760365479" duration="526000" />
+      <workItem from="1537760365479" duration="975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19478000" />
+    <option name="totallyTimeSpent" value="19927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1028" extended-state="0" />
@@ -476,10 +521,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/lp1/QueryImages.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/lp1/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/keyvalue/Triple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -504,26 +557,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/lp1/QueryImages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="42" column="117" lean-forward="false" selection-start-line="42" selection-start-column="117" selection-end-line="42" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/lp1/IndexImages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/lp1/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mx/iteso/desi/cloud/keyvalue/Triple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="534">
+          <caret line="146" column="9" lean-forward="true" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
           <folding />
         </state>
       </provider>

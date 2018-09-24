@@ -143,7 +143,7 @@ public class IndexImages {
   
   public static void main(String args[])
   {
-    System.out.println("*** Alumno: Ángel Ávila (Exp: is697755 )");
+    System.out.println("*** Alumno: Que Parres ponga esto aquí casi me hace poner una referencia a mi nombre HMMMMM");
     try {
 
       IKeyValueStorage imageStore = KeyValueStoreFactory.getNewKeyValueStore(Config.storeType, 
