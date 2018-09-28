@@ -8,6 +8,10 @@ yarn-error.log*
 # Dbs
 **.ttl
 
+# Personal
+/examen1/README.md
+/examen1/Examen1API-Prod-swagger-apigateway.json
+
 # Mac files
 **.DS_Store
 
