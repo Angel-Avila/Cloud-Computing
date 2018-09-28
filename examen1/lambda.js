@@ -37,7 +37,6 @@ const getLabels = async(data64) => {
     };
   
     return rekognition.detectLabels(params, function(err, data) {
-        console.log("And here!");
         if (err) {
             //console.log(err, err.stack);
             return err;
