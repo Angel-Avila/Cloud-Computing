@@ -4,24 +4,29 @@ fs = require('fs')
 
 var geoData;
 
+const dirname = './out/';
+
 // We begin by loading the data file. As usual, this is done with a callback,
 // which either receives an error (e.g., if the file was not found) or the data
 // in the file, which we then remember in the 'geoData' variable. Error 34
 // is 'file not found'.
 
-fs.readFile('./part-r-00000', 'utf8', function (err,data) {
+fs.readdir(dirname, function(err, filenames) {
+
   if (err) {
-    if (err.errno == 34) {
-      console.log("Cannot find the file 'part-r-00000' - did you copy it from ");
-      console.log("your 'output' directory to the current directory?");
-      console.log("Try running 'cp ../output/part-r-00000 .'");
-      process.exit(1);
-    }
-    
-    console.log("Cannot read from 'part-r-00000': "+err);
-    process.exit(1);
+    onError(err);
+    return;
   }
-  geoData = data;
+
+  filenames.forEach(function(filename) {
+    fs.readFile(dirname + filename, 'utf-8', function(err, data) {
+      if (err) {
+        onError(err);
+        return;
+      }
+      geoData += data;
+    });
+  });
 });
 
 // The line below tells Node to include a special header in the response that 
