@@ -15,6 +15,10 @@ yarn-error.log*
 # Mac files
 **.DS_Store
 
+# idea
+.idea/
+META-INF/
+
 # Runtime data
 pids
 *.pid
